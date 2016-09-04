@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        >
+
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:timePickerMode="spinner" />
+
+    </RelativeLayout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.25"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vinny.myapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/btnPlayWhiteNoise"
+
+                android:text="White Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4"
+                />
+
+            <Button
+                android:id="@+id/btnPlayPinkNoise"
+
+                android:text="Pink Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayBrownNoise"
+
+                android:text="Brown Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayFanNoise"
+
+                android:text="Fan Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayDrivingNoise"
+
+                android:text="Driving"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayWashingMachineNoise"
+
+                android:text="Washing Machine"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayTumbleDryerNoise"
+
+                android:text="Tumble Dryer Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+
+
+            <Button
+                android:id="@+id/btnPlayFanNoise4"
+
+                android:text="Fan Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+            <Button
+                android:id="@+id/btnPlayFanNoise5"
+
+                android:text="XXX Noise"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+    </LinearLayout>
